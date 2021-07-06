@@ -1,21 +1,34 @@
+listac = ["15", "01", "02", "03", "04", "05", "13", "06", "07", "16", "08", "09", "14", "10", "11", "12"]
+
+listar = ["Región de Arica y Parinacota", "Región de Tarapacá", "Region de Antofagasta", "Region de Atacama", "Región de Coquimbo", "Región de Valparaiso", "Región Metropolitana", "Región del Libertador General Bernardo O'higgins", "Región del Maule", "Región del Ñuble", "Región del Biobio", "Región de la Araucania", "Región de los Rios", "Región de los Lagos", "Región de Aysén del General Carlos Ibáñez del Campo", "Región de Magallanes"]
+x   =   0
+
+pepe   =   input("Ingrese region: ")
+
+for i in range(listar):
+    if pepe[0]  ==  listar[i]:
+        X = 5
+
+    if pepe[0]  ==  listac[i]:
+        X = 10
 
 print ("""
-1.Región de Arica y Parinacota
-2.Región de Tarapacá
-3.Region de Antofagasta
-4.Region de Atacama
-5.Región de Coquimbo
-6.Región de Valparaiso
-7.Región Metropolitana
-8.Región del Libertador General Bernardo O'higgins
-9.Región del Maule
-10.Región del Ñuble
-11.Región del Biobio
-12.Región de la Araucania
-13.Región de los Rios
-14.Región de los Lagos
-15.Región de Aysén del General Carlos Ibáñez del Campo
-16.Región de Magallanes
+15.Región de Arica y Parinacota
+01.Región de Tarapacá
+02.Region de Antofagasta
+03.Region de Atacama
+04.Región de Coquimbo
+05.Región de Valparaiso
+13.Región Metropolitana
+06.Región del Libertador General Bernardo O'higgins
+07.Región del Maule
+16.Región del Ñuble
+08.Región del Biobio
+09.Región de la Araucania
+14.Región de los Rios
+10.Región de los Lagos
+11.Región de Aysén del General Carlos Ibáñez del Campo
+12.Región de Magallanes
 """)
 x = int(input("Ingrese una region o su codigo: "))
 
