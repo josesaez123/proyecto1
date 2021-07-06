@@ -102,3 +102,4 @@ if x == 3:
         ejey=[54,67,98,78,45]
         plt.plot(ejex,ejey)
         plt.show()
+print("holiwis")
