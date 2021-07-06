@@ -7,10 +7,10 @@ pepe   =   input("Ingrese region: ")
 
 for i in range(listar):
     if pepe[0]  ==  listar[i]:
-        X = 5
+        x = 5
 
     if pepe[0]  ==  listac[i]:
-        X = 10
+        x = 10
 
 print ("""
 15.Región de Arica y Parinacota
