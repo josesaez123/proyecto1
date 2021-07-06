@@ -3,7 +3,7 @@ listac = ["15", "01", "02", "03", "04", "05", "13", "06", "07", "16", "08", "09"
 listar = ["Región de Arica y Parinacota", "Región de Tarapacá", "Region de Antofagasta", "Region de Atacama", "Región de Coquimbo", "Región de Valparaiso", "Región Metropolitana", "Región del Libertador General Bernardo O'higgins", "Región del Maule", "Región del Ñuble", "Región del Biobio", "Región de la Araucania", "Región de los Rios", "Región de los Lagos", "Región de Aysén del General Carlos Ibáñez del Campo", "Región de Magallanes"]
 x   =   0
 
-pepe   =   input("Ingrese region: ")
+pepe = int(input("Ingrese una region o su codigo: "))
 
 for i in range(listar):
     if pepe[0]  ==  listar[i]:
@@ -30,7 +30,6 @@ print ("""
 11.Región de Aysén del General Carlos Ibáñez del Campo
 12.Región de Magallanes
 """)
-x = int(input("Ingrese una region o su codigo: "))
 
 if x == 1:
     print("a.- Examenes PCR acumulativos")
