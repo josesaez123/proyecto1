@@ -4,27 +4,58 @@ listar = ["Region de Arica y Parinacota", "Region de Tarapacá", "Region de Anto
 x   =   0
 
 mp = int(input("""
-------------Ingrese Una Region o su codigo------------
+------------ Ingrese El Codigo De Su Region ----------------
+-                                                          -
+- 15.Region de Arica y Parinacota                          -
+- 01.Region de Tarapacá                                    -
+- 02.Region de Antofagasta                                 -
+- 03.Region de Atacama                                     -
+- 04.Region de Coquimbo                                    -
+- 05.Region de Valparaiso                                  -
+- 13.Region Metropolitana                                  -
+- 06.Region del Libertador General Bernardo O'higgins      -
+- 07.Region del Maule                                      -
+- 16.Region del Ñuble                                      -
+- 08.Region del Biobio                                     -
+- 09.Region de la Araucania                                -
+- 14.Region de los Rios                                    -
+- 10.Region de los Lagos                                   -
+- 11.Region de Aysén del General Carlos Ibáñez del Campo   -
+- 12.Region de Magallanes                                  -
+-                                                          -
+------------------------------------------------------------
+<> """))
 
-15.Region de Arica y Parinacota
-01.Region de Tarapacá
-02.Region de Antofagasta
-03.Region de Atacama
-04.Region de Coquimbo
-05.Region de Valparaiso
-13.Region Metropolitana
-06.Region del Libertador General Bernardo O'higgins
-07.Region del Maule
-16.Region del Ñuble
-08.Region del Biobio
-09.Region de la Araucania
-14.Region de los Rios
-10.Region de los Lagos
-11.Region de Aysén del General Carlos Ibáñez del Campo
-12.Region de Magallanes
-
-------------------------------------------------------
-"""))
+while (mp < 0) or (mp > 16):
+    print("""
+           ----------------------------------
+----------- Error, Ingrese una opcion valida --------------
+           ----------------------------------
+""")
+    
+    mp = int(input("""
+------------- Ingrese El Codigo De Su Region ---------------
+-                                                          -
+- 15.Region de Arica y Parinacota                          -
+- 01.Region de Tarapacá                                    -
+- 02.Region de Antofagasta                                 -
+- 03.Region de Atacama                                     -
+- 04.Region de Coquimbo                                    -
+- 05.Region de Valparaiso                                  -
+- 13.Region Metropolitana                                  -
+- 06.Region del Libertador General Bernardo O'higgins      -
+- 07.Region del Maule                                      -
+- 16.Region del Ñuble                                      -
+- 08.Region del Biobio                                     -
+- 09.Region de la Araucania                                -
+- 14.Region de los Rios                                    -
+- 10.Region de los Lagos                                   -
+- 11.Region de Aysén del General Carlos Ibáñez del Campo   -
+- 12.Region de Magallanes                                  -
+-                                                          -
+------------------------------------------------------------
+<> """))
+    
 while (mp > 0):
 
     if mp == 15:
