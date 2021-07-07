@@ -86,4 +86,3 @@ while (mp > 0):
  
 print("holiwis")
 
-print("holiwis")
