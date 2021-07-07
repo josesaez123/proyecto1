@@ -1,7 +1,6 @@
 listac = ["15", "01", "02", "03", "04", "05", "13", "06", "07", "16", "08", "09", "14", "10", "11", "12"]
 
 listar = ["Region de Arica y Parinacota", "Region de Tarapacá", "Region de Antofagasta", "Region de Atacama", "Region de Coquimbo", "Region de Valparaiso", "Region Metropolitana", "Region del Libertador General Bernardo O'higgins", "Region del Maule", "Region del Ñuble", "Region del Biobio", "Region de la Araucania", "Region de los Rios", "Region de los Lagos", "Region de Aysén del General Carlos Ibáñez del Campo", "Region de Magallanes"]
-x   =   0
 
 mp = int(input("""
 ------------ Ingrese El Codigo De Su Region ----------------
