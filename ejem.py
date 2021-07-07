@@ -55,7 +55,7 @@ while (mp < 0) or (mp > 16):
 ------------------------------------------------------------
 <> """))
     
-wwhile (mp > 0): #AGREGAR LOS IF PARA SALIR DEL PROGRAMA O BUCLE
+while (mp > 0): #AGREGAR LOS IF PARA SALIR DEL PROGRAMA O BUCLE
 
     if mp == 15:
         print("""
