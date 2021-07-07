@@ -25,26 +25,34 @@ mp = int(input("""
 
 ------------------------------------------------------
 """))
-if x == 1:
-    print("a.- Examenes PCR acumulativos")
-    print("b.- Examenes PCR no acumulativos")
-    z = input("Ingrese una opcion: ")
+while (mp > 0):
 
-    if z == "a":
-
-        import matplotlib.pyplot as plt
-        ejex=[4,8,13,17,20]
-        ejey=[54,67,98,78,45]
-        plt.plot(ejex,ejey)
-        plt.show()
-
-    if z == "b":
+    if mp == 15:
+        print("""
+----------Tipo De Examenes PCR----------
+-                                      -
+- a.- Examenes PCR Acumulativos        -
+- b.- Examenes PCR No Acumulativos     -
+-                                      -
+----------------------------------------""")
+        z = input("<> ")
     
-        import matplotlib.pyplot as plt
-        ejex=[999,1000,13,17,20]
-        ejey=[54,67,98,78,45]
-        plt.plot(ejex,ejey)
-        plt.show()
+        if z == "a":
 
+            import matplotlib.pyplot as plt
+            ejex=[4,8,13,17,20]
+            ejey=[54,67,98,78,45]
+            plt.plot(ejex,ejey)
+            plt.show()
+
+        if z == "b":
+    
+            import matplotlib.pyplot as plt
+            ejex=[999,1000,13,17,20]
+            ejey=[54,67,98,78,45]
+            plt.plot(ejex,ejey)
+            plt.show()
+ 
+print("holiwis")
 
 print("holiwis")
