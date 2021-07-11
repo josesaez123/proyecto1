@@ -180,7 +180,98 @@ while (menu == True):
                 plt.plot(ejex,ejey)
                 plt.title("Examenes PCR Acumulativos")
                 plt.show()
+       
+        if opc == int("10"):
+            print("""
+    ----------Tipo De Examenes PCR----------
+    -                                      -
+    - a.- Examenes PCR Acumulativos        -
+    - b.- Examenes PCR No Acumulativos     -
+    -                                      -
+    ----------------------------------------""")
+            z = input("<> ")
 
+            z = z.lower()
+
+
+        if z == "b":
+
+                import matplotlib.pyplot as plt
+                ejex=[0,"23","24","25","26","27","28","29","30","1","2","3","4","5","6"]
+                ejey=[0,1067,1997,5249,5411,4804,4486,2160,1110,1964,5239,5282,4492,3709,1794]
+                plt.plot(ejex,ejey)
+                plt.show()
+
+        if z == "a":
+
+                import matplotlib.pyplot as plt
+                ejex=[0,"23","24","25","26","27","28","29","30","1","2","3","4","5","6"]
+                ejey=[0,1067,3064,8313,13724,18528,23014,25174,26284,28248,33487,38769,43261,46970,48764]
+                plt.plot(ejex,ejey)
+                plt.show()
+
+
+        if opc == int("11"):
+            print("""
+    ----------Tipo De Examenes PCR----------
+    -                                      -
+    - a.- Examenes PCR Acumulativos        -
+    - b.- Examenes PCR No Acumulativos     -
+    -                                      -
+    ----------------------------------------""")
+        z = input("<> ")
+
+        z = z.lower()
+
+
+        if z == "b":
+
+                import matplotlib.pyplot as plt
+                ejex=[0,"23","24","25","26","27","28","29","30","1","2","3","4","5","6"]
+                ejey=[0,87,381,750,532,722,543,233,177,350,499,481,525,500,199]
+                plt.plot(ejex,ejey)
+                plt.show()
+
+        if z == "a":
+
+                import matplotlib.pyplot as plt
+                ejex=[0,"23","24","25","26","27","28","29","30","1","2","3","4","5","6"]
+                ejey=[0,87,468,1218,1750,2472,3015,3248,3425,3775,4274,4755,5280,5780,5899]
+                plt.plot(ejex,ejey)
+                plt.show()
+
+
+        if mopc == int("12"):
+            print("""
+    ----------Tipo De Examenes PCR----------
+    -                                      -
+    - a.- Examenes PCR Acumulativos        -
+    - b.- Examenes PCR No Acumulativos     -
+    -                                      -
+    ----------------------------------------""")
+        z = input("<> ")
+
+        z = z.lower()
+
+
+        if z == "b":
+
+                import matplotlib.pyplot as plt
+                ejex=[0,"23","24","25","26","27","28","29","30","1","2","3","4","5","6"]
+                ejey=[0,302,293,1006,778,893,590,435,301,260,947,1038,672,609,499]
+                plt.plot(ejex,ejey)
+                plt.show()
+
+        if z == "a":
+
+                import matplotlib.pyplot as plt
+                ejex=[0,"23","24","25","26","27","28","29","30","1","2","3","4","5","6"]
+                ejey=[0,302,595,1601,2379,3272,3862,4297,4598,4858,5805,6843,7515,8124,8623]
+                plt.plot(ejex,ejey)
+                plt.title()
+                plt.show()
+
+print("holiwis")
     elif opc == 00:
         print("Fin Del Programa")
         menu = False
