@@ -1,3 +1,7 @@
+#Eleccion 2 Seccion 1 Carlos Miranda - Seccion 1 Jose Saez
+
+#Se requiere instalar la biblioteca MatPlotLib para ejecutar el codigo
+
 menu = True #se aplica esta condicion para entrar en el while
 
 while (menu == True):  #al estar en esta condicion se entra en el menu
@@ -521,7 +525,7 @@ while (menu == True):  #al estar en esta condicion se entra en el menu
                 plt.show()
     elif opc == 00:    #se crea un elif con el fin de dar termino al programa en caso de que la persona lo desee
         print("Fin Del Programa")
-        menu = False
+        menu = False #se decreta menu = false para finalizar el ciclo y salir del programa 
     else:                    #se crea un else en caso de que una persona cometa un erro al ingresar un dato
         print("""      
               ----------------------------------
