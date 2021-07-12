@@ -519,11 +519,11 @@ while (menu == True):  #al estar en esta condicion se entra en el menu
                 plt.plot(ejex,ejey)
                 plt.title("Examenes PCR Acumulativos")
                 plt.show()
-    elif opc == 00:
+    elif opc == 00:    #se crea un elif con el fin de dar termino al programa en caso de que la persona lo desee
         print("Fin Del Programa")
         menu = False
-    else:
-        print("""
+    else:                    #se crea un else en caso de que una persona cometa un erro al ingresar un dato
+        print("""      
               ----------------------------------
 -------------- Error, Ingrese una opcion valida --------------
               ----------------------------------
