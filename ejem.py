@@ -114,7 +114,7 @@ while (menu == True):
             if z == "a":
 
                 import matplotlib.pyplot as plt
-                ejex=[0,"23-24","25-26","27-28","29-30","1-2","3-4","5-6"]
+                ejex=[0,"23","24","25","26","27","28","29","30","1","2","3","4","5","6"]
                 ejey=[0,3409,4795,7433,6059,4921,4962,7280]
                 plt.plot(ejex,ejey)
                 plt.title("Examenes PCR Acumulativos")
@@ -175,7 +175,7 @@ while (menu == True):
             if z == "a":
 
                 import matplotlib.pyplot as plt
-                ejex=[0,"23-24","25-26","27-28","29-30","1-2","3-4","5-6"]
+                ejex=[0,"23","24","25","26","27","28","29","30","1","2","3","4","5","6"]
                 ejey=[0,1155,2143,4844,7449,10058,13021,14242,15662,16812,18507,21282,24977,26495,28350]
                 plt.plot(ejex,ejey)
                 plt.title("Examenes PCR Acumulativos")
@@ -194,20 +194,22 @@ while (menu == True):
             z = z.lower()
 
 
-            if z == "a":
-
-                import matplotlib.pyplot as plt
-                ejex=[4,8,13,17,20]
-                ejey=[0,2650,5721,8380,7254,7051,7959,3189,2300,5723,8275,7459,6883,7183,2885]
-                plt.plot(ejex,ejey)
-                plt.show()
-
             if z == "b":
 
                 import matplotlib.pyplot as plt
-                ejex=[999,1000,13,17,20]
+                ejex=[0,"23","24","25","26","27","28","29","30","1","2","3","4","5","6"]
+                ejey=[0,2650,5721,8380,7254,7051,7959,3189,2300,5723,8275,7459,6883,7183,2885]
+                plt.plot(ejex,ejey)
+                plt.title("Examenes PCR No Acumulativos")
+                plt.show()
+
+            if z == "a":
+
+                import matplotlib.pyplot as plt
+                ejex=[0,"23","24","25","26","27","28","29","30","1","2","3","4","5","6"]
                 ejey=[0,2650,8371,16751,24005,31056,39015,42204,44504,50227,58502,65961,72844,80027,82912]
                 plt.plot(ejex,ejey)
+                plt.title("Examenes PCR Acumulativos")
                 plt.show()
 
         if opc == int("09"):
@@ -226,17 +228,19 @@ while (menu == True):
             if z == "b":
 
                 import matplotlib.pyplot as plt
-                ejex=[4,8,13,17,20]
+                ejex=[0,"23","24","25","26","27","28","29","30","1","2","3","4","5","6"]
                 ejey=[0,769,1590,3231,3344,3245,3090,1374,1033,1360,2913,3252,3389,2777,1525]
                 plt.plot(ejex,ejey)
+                plt.title("Examenes PCR No Acumulativos")
                 plt.show()
 
             if z == "a":
 
                 import matplotlib.pyplot as plt
-                ejex=[999,1000,13,17,20]
+                ejex=[0,"23","24","25","26","27","28","29","30","1","2","3","4","5","6"]
                 ejey=[0,769,2359,5590,8934,12179,15269,16643,17676,19036,21949,25201,28590,31367,32892]
                 plt.plot(ejex,ejey)
+                plt.title("Examenes PCR Acumulativos")
                 plt.show()
 
 
@@ -256,17 +260,19 @@ while (menu == True):
             if z == "b":
 
                 import matplotlib.pyplot as plt
-                ejex=[4,8,13,17,20]
+                ejex=[0,"23","24","25","26","27","28","29","30","1","2","3","4","5","6"]
                 ejey=[0,554,882,2618,2500,2319,1523,970,484,928,2565,2195,2197,1543,824]
                 plt.plot(ejex,ejey)
+                plt.title("Examenes PCR No Acumulativos")
                 plt.show()
 
             if z == "a":
 
                 import matplotlib.pyplot as plt
-                ejex=[999,1000,13,17,20]
+                ejex=[0,"23","24","25","26","27","28","29","30","1","2","3","4","5","6"]
                 ejey=[0,554,1436,4054,6554,8873,10396,11366,11850,12778,15343,17538,19735,21278,22102]
                 plt.plot(ejex,ejey)
+                plt.title("Examenes PCR Acumulativos")
                 plt.show()   
     
         if opc == int("10"):
@@ -288,6 +294,7 @@ while (menu == True):
                 ejex=[0,"23","24","25","26","27","28","29","30","1","2","3","4","5","6"]
                 ejey=[0,1067,1997,5249,5411,4804,4486,2160,1110,1964,5239,5282,4492,3709,1794]
                 plt.plot(ejex,ejey)
+                plt.title("Examenes PCR No Acumulativos")
                 plt.show()
 
             if z == "a":
@@ -296,6 +303,7 @@ while (menu == True):
                 ejex=[0,"23","24","25","26","27","28","29","30","1","2","3","4","5","6"]
                 ejey=[0,1067,3064,8313,13724,18528,23014,25174,26284,28248,33487,38769,43261,46970,48764]
                 plt.plot(ejex,ejey)
+                plt.title("Examenes PCR Acumulativos")
                 plt.show()
 
 
@@ -318,6 +326,7 @@ while (menu == True):
                 ejex=[0,"23","24","25","26","27","28","29","30","1","2","3","4","5","6"]
                 ejey=[0,87,381,750,532,722,543,233,177,350,499,481,525,500,199]
                 plt.plot(ejex,ejey)
+                plt.title("Examenes PCR No Acumulativos")
                 plt.show()
 
             if z == "a":
@@ -326,6 +335,7 @@ while (menu == True):
                 ejex=[0,"23","24","25","26","27","28","29","30","1","2","3","4","5","6"]
                 ejey=[0,87,468,1218,1750,2472,3015,3248,3425,3775,4274,4755,5280,5780,5899]
                 plt.plot(ejex,ejey)
+                plt.title("Examenes PCR Acumulativos")
                 plt.show()
 
 
@@ -348,6 +358,7 @@ while (menu == True):
                 ejex=[0,"23","24","25","26","27","28","29","30","1","2","3","4","5","6"]
                 ejey=[0,302,293,1006,778,893,590,435,301,260,947,1038,672,609,499]
                 plt.plot(ejex,ejey)
+                plt.title("Examenes PCR No Acumulativos")
                 plt.show()
 
             if z == "a":
@@ -356,7 +367,7 @@ while (menu == True):
                 ejex=[0,"23","24","25","26","27","28","29","30","1","2","3","4","5","6"]
                 ejey=[0,302,595,1601,2379,3272,3862,4297,4598,4858,5805,6843,7515,8124,8623]
                 plt.plot(ejex,ejey)
-                plt.title()
+                plt.title("Examenes PCR Acumulativos")
                 plt.show()
 
 print("holiwis")
