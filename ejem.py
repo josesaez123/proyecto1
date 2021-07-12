@@ -1,6 +1,6 @@
-menu = True
+menu = True #se aplica esta condicion para entrar en el while
 
-while (menu == True):    
+while (menu == True):  #al estar en esta condicion se entra en el menu
     print("""
 ------------- Ingrese El Codigo De Su Region -----------------
 -                                                            -
@@ -26,30 +26,30 @@ while (menu == True):
 --------------------------------------------------------------""")
     opc = int(input("<> "))       #Se crea una variable con el fin de manejarlo de forma mas amena a continuación 
 
-    if (opc > 0) and (opc <= 16):
+    if (opc > 0) and (opc <= 16): #ciclo para todas las regiones
 
-        if opc == 15:
-            print("""
+        if opc == 15: 
+            print(""" 
     ----------Tipo De Examenes PCR----------
     -                                      -
     - a.- Examenes PCR Acumulativos        -
     - b.- Examenes PCR No Acumulativos     -
     -                                      -
-    ----------------------------------------""")
+    ----------------------------------------""") #mensaje de indicacion para seleccion de opciones
             z = input("<> ")   #se almacena el input en una variable con el fin de analizarla y aplicarle un if futuramente 
 
-            z = z.lower()
+            z = z.lower() #se coloca esto para que por si el usuario ingresa la "a" o "b" en mayuscula se trabajen en minusculas 
 
             if z == "b":      #si su respuesta es igual a b se le mostrara los examenes no acumulables
 
-                import matplotlib.pyplot as plt
-                ejex=[0,"23","24","25","26","27","28","29","30","1","2","3","4","5","6"]
-                ejey=[0,757,848,1344,1210,1089,1669,824,660,689,1304,975,1042,1076,782]
-                plt.plot(ejex,ejey)
-                plt.title("Examenes PCR No Acumulativos")
-                plt.show()
+                import matplotlib.pyplot as plt #se llama a la biblioteca para asi crear un grafico de lineas
+                ejex=[0,"23","24","25","26","27","28","29","30","1","2","3","4","5","6"] #variables que se encuentran en el eje X
+                ejey=[0,757,848,1344,1210,1089,1669,824,660,689,1304,975,1042,1076,782] #variables que se encuentran en el eje Y
+                plt.plot(ejex,ejey) #con esto se declaran las variables que se tomaran en el grafico
+                plt.title("Examenes PCR No Acumulativos") #titulo del grafico
+                plt.show() #indicacion para mostrar el grafico
 
-            if z == "a":
+            if z == "a": #si su respuesta es igual a a se le mostrara los examenes no acumulables
         
                 import matplotlib.pyplot as plt
                 ejex=[0,"23","24","25","26","27","28","29","30","1","2","3","4","5","6"]
