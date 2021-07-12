@@ -1,6 +1,6 @@
 menu = True
 
-while (menu == True):
+while (menu == True):    
     print("""
 ------------- Ingrese El Codigo De Su Region -----------------
 -                                                            -
@@ -24,7 +24,7 @@ while (menu == True):
 - 00 - Salir del programa                                    -
 -                                                            -
 --------------------------------------------------------------""")
-    opc = int(input("<> "))
+    opc = int(input("<> "))       #Se crea una variable con el fin de manejarlo de forma mas amena a continuación 
 
     if (opc > 0) and (opc <= 16):
 
@@ -36,11 +36,11 @@ while (menu == True):
     - b.- Examenes PCR No Acumulativos     -
     -                                      -
     ----------------------------------------""")
-            z = input("<> ")
+            z = input("<> ")   #se almacena el input en una variable con el fin de analizarla y aplicarle un if futuramente 
 
             z = z.lower()
 
-            if z == "b":
+            if z == "b":      #si su respuesta es igual a b se le mostrara los examenes no acumulables
 
                 import matplotlib.pyplot as plt
                 ejex=[0,"23","24","25","26","27","28","29","30","1","2","3","4","5","6"]
@@ -518,7 +518,6 @@ while (menu == True):
                 ejey=[0,302,595,1601,2379,3272,3862,4297,4598,4858,5805,6843,7515,8124,8623]
                 plt.plot(ejex,ejey)
                 plt.title("Examenes PCR Acumulativos")
-                plt.title()
                 plt.show()
     elif opc == 00:
         print("Fin Del Programa")
